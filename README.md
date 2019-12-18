@@ -1,4 +1,6 @@
-# e2e-coverage
+# Vue E2E testing coverage
+
+This repo contains a basic vue web app. This app also has e2e tests using cypress, whose coverage is measured using `istanbul-lib-coverage` Cypress plugin.
 
 ## Project setup
 ```
@@ -10,20 +12,12 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Run E2E tests
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+npm run test:e2e
 ```
 
-### Lints and fixes files
+### Preview E2E coverage report (in shell)
 ```
-npm run lint
+npm run report:e2e
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

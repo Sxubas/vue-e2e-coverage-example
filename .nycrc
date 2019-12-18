@@ -1,0 +1,5 @@
+{
+  "extension": [".js", ".vue"],
+  "include": ["src/**"],
+  "all": true
+}
